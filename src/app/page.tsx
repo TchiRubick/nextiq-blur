@@ -29,7 +29,7 @@ export default async function Home() {
           </main>
 
           <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-            Take your crypto phrase, apply a hash function to it using a password, and store it in a secure location. <br />
+            Take your crypto wallet phrase, apply a hash function to it using a password, and store it in a secure location. <br />
             <span className="italic text-muted-foreground text-xs">Hash better, sleep better.</span>
           </p>
 
