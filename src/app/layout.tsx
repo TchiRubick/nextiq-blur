@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import { Wrapper } from "@/app/_components/wrapper";
 import { Toaster } from "@/components/ui/toaster";
 import { TRPCReactProvider } from "@/trpc/react";
+import { ThemeProvider } from "./_providers/theme-provider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,10 +22,12 @@ export const metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en" suppressHydrationWarning>
     <body className={`font-sans ${inter.variable}`}>
-      <TRPCReactProvider>
-        <Wrapper>{children}</Wrapper>
-        <Toaster />
-      </TRPCReactProvider>
+      <ThemeProvider defaultTheme="dark" attribute="class">
+        <TRPCReactProvider>
+          <Wrapper>{children}</Wrapper>
+          <Toaster />
+        </TRPCReactProvider>
+      </ThemeProvider>
     </body>
   </html>
 );

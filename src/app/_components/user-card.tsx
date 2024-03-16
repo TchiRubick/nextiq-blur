@@ -14,7 +14,6 @@ import Image from "next/image";
 export const Cards = () => {
   return (
     <div className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]">
-      {/* Team */}
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <Image
@@ -87,8 +86,6 @@ export const Cards = () => {
           </div>
         </CardFooter>
       </Card>
-
-      {/* Pricing */}
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
