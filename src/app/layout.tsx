@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "NextIQ Blur - Take your crypto wallet phrase, apply a hash function to it using a password, and store it in a secure location",
-  description: "Take your crypto wallet phrase, apply a hash function to it using a password, and store it in a secure location. Secure your crypto wallet phrase with hashing. Decrypt your crypto wallet's hashed phrase. $0/Month. Ritchi Andria, @Moonlightlykos, Fullstack Developer. I really enjoy transforming ideas into functional software that exceeds expectation",
+  title: "NextIQ Blur - Take any phrase, apply a hash function to it using a passkey, and store it in a secure (or not) location",
+  description: "Take any phrase, apply a hash function to it using a passkey, and store it in a secure (or not) location. Secure your phrase with hashing. Decrypt your hashed phrase. $0/Month. Ritchi Andria, @Moonlightlykos, Fullstack Developer. I really enjoy transforming ideas into functional software that exceeds expectation",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 
 };
